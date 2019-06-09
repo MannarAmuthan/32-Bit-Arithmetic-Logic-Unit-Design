@@ -1,5 +1,5 @@
 module flag(clk,carry,in,out);
-// flag register give 5 bit output  carry,zero, and three user defined flag
+// flag register give 2 bit output  carry,zero;
 input[31:0] in;
 output reg[1:0] out;
 input carry,clk;
