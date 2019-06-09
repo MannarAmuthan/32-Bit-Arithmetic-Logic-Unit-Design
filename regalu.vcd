@@ -1,0 +1,136 @@
+$date
+	Sun Jun 09 15:03:25 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testALU $end
+$var wire 2 ! flagout [1:0] $end
+$var wire 32 " dataout [31:0] $end
+$var wire 1 # carry $end
+$var reg 1 $ clk $end
+$var reg 1 % en $end
+$var reg 4 & mode [3:0] $end
+$var reg 32 ' op1 [31:0] $end
+$var reg 32 ( op2 [31:0] $end
+$scope module st $end
+$var wire 1 $ clk $end
+$var wire 1 % en $end
+$var wire 4 ) mode [3:0] $end
+$var wire 32 * op1 [31:0] $end
+$var wire 32 + op2 [31:0] $end
+$var wire 2 , flagout [1:0] $end
+$var reg 1 # carry $end
+$var reg 32 - dataout [31:0] $end
+$scope module fl $end
+$var wire 1 # carry $end
+$var wire 1 $ clk $end
+$var wire 32 . in [31:0] $end
+$var reg 2 / out [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 /
+b0 .
+b0 -
+b10 ,
+b1 +
+b11111111111111111111111111111111 *
+b1 )
+b1 (
+b11111111111111111111111111111111 '
+b1 &
+1%
+1$
+1#
+b0 "
+b10 !
+$end
+#2
+0$
+#4
+1$
+#5
+b10 &
+b10 )
+b101 '
+b101 *
+#6
+0$
+#8
+b0 !
+b0 ,
+b0 /
+0#
+b100 "
+b100 -
+b100 .
+1$
+#10
+0$
+b11 &
+b11 )
+#12
+b1 "
+b1 -
+b1 .
+1$
+#14
+0$
+#15
+b100 &
+b100 )
+b10 '
+b10 *
+#16
+b11 "
+b11 -
+b11 .
+1$
+#18
+0$
+#20
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 -
+b11111111111111111111111111111111 .
+1$
+b101 &
+b101 )
+b0 '
+b0 *
+#22
+0$
+#24
+1$
+#25
+b110 &
+b110 )
+b1 '
+b1 *
+#26
+0$
+#28
+b10000000000000000000000000000000 "
+b10000000000000000000000000000000 -
+b10000000000000000000000000000000 .
+1$
+#30
+0$
+b111 &
+b111 )
+b1111111111111111111111111111111 '
+b1111111111111111111111111111111 *
+#32
+b11111111111111111111111111111110 "
+b11111111111111111111111111111110 -
+b11111111111111111111111111111110 .
+1$
+#34
+0$
+#35
